@@ -1,4 +1,7 @@
-# excel_demo
+<h1 align="center"> TUI Excel表格测试教程 </h1>
+
+## 描述
+TUI V2.1以上版本支持对`.xls`文件读取，和`.xlsx`文件创建。都是UTF-8编码字符串的输出和输入。
 
 ## `.xls`文件读取
 下图是要读取的xls文件
