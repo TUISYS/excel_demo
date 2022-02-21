@@ -9,7 +9,7 @@
 需要读取的.xls文件
 </p>
 
-下图是通过`xls_read_interface.h`接口，实现函数`void tui_xls_read_test(void)`的输出
+下图是通过`xls_read_interface.h`接口，实现函数`void tui_xls_read_test(void)`的`UTF-8`输出
 <p align="center">
 <img src="https://gitee.com/tuisys/image/raw/main/xls_read_output.png">
 </p>
