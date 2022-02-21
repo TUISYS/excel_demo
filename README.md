@@ -1,7 +1,9 @@
 <h1 align="center"> TUI Excel表格测试教程 </h1>
 
 ## 描述
-TUI V2.1以上版本支持对`.xls`文件读取，和`.xlsx`文件创建。都是UTF-8编码字符串的输出和输入。
+TUI *V2.1* 以上版本支持对`.xls`文件读取，和`.xlsx`文件创建，都是UTF-8编码字符串的输出和输入。<br>
+`TUISYS/excel_demo`仓库只提供了头文件接口和测试demo，实际应用要结合`TUISYS/tui_project`仓库里面的tui库文件。
+直接将`xls_read_interface.h`和`xlsx_write_interface.h`放进`TUISYS/tui_project/includes`，然后应用就可以调用相关函数了。
 
 ## `.xls`文件读取
 下图是要读取的xls文件
