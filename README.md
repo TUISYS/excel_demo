@@ -23,7 +23,8 @@ TUI *V2.1* 以上版本支持对`.xls`文件读取，和`.xlsx`文件创建，�
 </p>
 
 ## `.xlsx`文件创建
-下图是通过`xlsx_write_interface.h`接口，实现函数`void tui_xlsx_write_test(void)`的创建.xlsx文件
+下图是通过`xlsx_write_interface.h`接口，实现函数`void tui_xlsx_write_test(void)`的创建.xlsx文件。<br>
+注意：在创建`demo.xlsx`文件的时会产生一个临时文件`demo.xlsx.tmp`文件，这个文件可以删除不要。
 <p align="center">
 <img src="https://gitee.com/tuisys/image/raw/main/xlsx_write.png">
 </p>
